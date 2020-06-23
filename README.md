@@ -5,7 +5,8 @@ Simple angular app with following concepts
 3. component interaction(binding methods like <, &, @ etc)
 4. Project module
 5. two way binding
-6. form validation, etc
+6. form validation
+7. etc
 
 # How to start the project
 1. In vs code install go live plugin
