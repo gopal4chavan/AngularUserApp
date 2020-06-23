@@ -1,0 +1,32 @@
+<div>
+  <h2>Add New User</h2>
+  <form name="userForm" novalidate >
+    <div class="form-group">
+      <label>Name:</label>
+      <input class='form-control' type="text" name="name" ng-model="user.name" required>
+      <span ng-show = "userForm.name.$dirty && userForm.name.$invalid">
+        <span ng-show = "userForm.name.$error.required" >First Name is required.</span>
+     </span>
+    </div>
+    <div class="form-group">
+      <label>Designation:</label>
+      <input class='form-control' type="text" name="designation" ng-model='user.designation' required>
+      <span ng-show = "userForm.designation.$dirty && userForm.designation.$invalid">
+        <span ng-show = "userForm.designation.$error.required" >Designation is required.</span>
+     </span>
+    </div>
+    <div class="form-group">
+      <label>Age:</label>
+      <input class='form-control' type="number" name="age" ng-model="user.age" required>
+      <span ng-show = "userForm.age.$dirty && userForm.age.$invalid">
+        <span ng-show = "userForm.age.$error.required" >Age is required.</span>
+     </span>
+    </div>
+      <button class="btn btn-primary" ng-disabled = "userForm.name.$invalid || userForm.designation.$invalid ||userForm.age.$invalid" ng-click="$ctrl.submit(userForm)">Submit</button>
+  </form>
+
+  <div>
+    {{name}}
+  </div>
+  <div>{{age}}</div>
+</div>  

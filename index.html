@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>User App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.11/angular.min.js"></script>
+    <script src="//unpkg.com/@uirouter/angularjs@1.0.5/release/angular-ui-router.js"></script>
+
+    <script src="app.module.js"></script>
+    <script src="components/users/users.module.js"></script>
+    <script src="components/users/user.config.js"></script>
+    <script src="components/users/user.component.js"></script>
+    <script src="components/form/user-form.component.js"></script>
+    <script src="components/table/user-table.component.js"></script>
+    <script src="components/details/user-details.component.js"></script>
+
+  </head>
+  <body ng-app='myApp'>
+    <div class="container">
+      <ui-view></ui-view>
+    </div>
+  </body>
+</html>

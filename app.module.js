@@ -1,0 +1,1 @@
+angular.module('myApp', ['userApp', 'ui.router'])

@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "one",
+    "designation": "SE",
+    "age": 24
+  },
+  {
+    "id": 2,
+    "name": "two",
+    "designation": "SE II",
+    "age": 22
+  },
+  {
+    "id": 3,
+    "name": "three",
+    "designation": "SE III",
+    "age": 23
+  },
+  {
+    "id": 4,
+    "name": "four",
+    "designation": "SE",
+    "age": 21
+  },
+  {
+    "id": 5,
+    "name": "five",
+    "designation": "SSE",
+    "age": 25
+  }
+]

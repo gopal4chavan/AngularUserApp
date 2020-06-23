@@ -1,0 +1,21 @@
+<h2> Users List</h2>
+<table class="table table-hover">
+  <thead class="" style="background-color: 007bff;color: white;">
+    <tr>
+      <th>Name</td>
+      <th>Designation</td>
+      <th>Age</td>
+      <th>Details</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr ng-repeat='user in $ctrl.users' style="cursor: pointer;" >
+      <td>{{user.name}}</td>
+      <td>{{user.designation}}</td>
+      <td>{{user.age}}</td>
+      <td>
+        <a ui-sref="user-details({userId: user.id})" ui-sref-active="active">Details</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
