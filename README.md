@@ -9,6 +9,9 @@ Simple angular app with following concepts
 7. etc
 
 # How to start the project
+## with vscode go live plugin
 1. In vs code install go live plugin
 2. navigate to index.html page and click on go live(in bottom right corner)
 3. go to localhost:port/#/ page
+## using angularjs seed app
+ just navigate to this link https://github.com/angular/angular-seed, on how to setup project with angular seed project
